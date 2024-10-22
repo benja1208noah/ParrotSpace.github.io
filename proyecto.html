@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima de los Días</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/imagen/images.ico">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="clima.html"><img src="/imagen/1625719878643.jpeg" alt=""></a>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="https://tecnica4berazategui.edu.ar/">Escuela</a></li>
+                <li><a href="proyecto.html">Proyecto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Clima de los Días</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Día</th>
+                    <th>Temperatura (°C)</th>
+                    <th>Altura (m)</th>
+                    <th>Presión (hPa)</th>
+                    <th>Presión Nivel del Mar (hPa)</th>
+                    <th>Altitud Real (m)</th>
+                </tr>
+            </thead>
+            <tbody id="climaTable">
+                <!-- Aquí se llenará con los datos desde la base de datos -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
